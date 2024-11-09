@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #2a263e;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.logo h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.banner {
+    background-color: rgb(54, 55, 90);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.banner-text h2 {
+    font-size: 32px;
+}
+
+.main {
+    padding: 20px;
+}
+
+.berita-terkini {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.berita-terkini h2 {
+    grid-column: span 3;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.berita-terkini article {
+    background-color: #fff;
+    padding: 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.berita-terkini article img {
+    width: 100%;
+    height: auto;
+}
+
+.berita-terkini article h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
